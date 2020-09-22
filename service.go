@@ -50,7 +50,7 @@ This a simple windows service example:
 			fmt.Fprintf(os.Stderr, "%s\n", `
 	Example:
 	# run hello server
-	$ go build -o hello.exe hello.go
+	$ go build -o hello.exe service_demo.go
 	$ hello.exe
 
 	# install hello as windows service

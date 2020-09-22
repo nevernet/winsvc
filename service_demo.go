@@ -15,7 +15,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/chai2010/winsvc"
+	"github.com/nevernet/winsvc"
 )
 
 var (
@@ -43,7 +43,7 @@ Options:
 		fmt.Fprintf(os.Stderr, "%s\n", `
 Example:
   # run hello server
-  $ go build -o hello.exe hello.go
+  $ go build -o hello.exe service_demo.go
   $ hello.exe
 
   # install hello as windows service
